@@ -1,0 +1,205 @@
+#page {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFF;
+}
+
+#heading{
+  display: flex;
+  justify-content: flex-start;
+  width: 375px;
+  height: 240px;
+  position: relative;
+  background-image: url("/public/images/bg-main-mobile.png") ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#cardsBack{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width:286px;
+  height:157px ;
+  background-image: url("/public/images/bg-card-back.png");
+  background-repeat:no-repeat;
+  background-size: 286px 157px;
+  margin: 32px 0px 0px 73px;
+}
+
+#CVC{
+  color: #FFF;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.286px;
+  text-transform: uppercase;
+  margin-right: 37.2px;
+  margin-top: -5px;
+}
+
+#cardsFront{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top:126px;
+  left: 17px;
+  width:286px;
+  height:157px ;
+  background-image: url("/public/images/bg-card-front.png");
+  background-repeat: no-repeat;
+  background-size: 286px 157px;
+  padding: 17px 21px 20px 19px;
+}
+
+#signs{
+  display: flex;
+  align-items: center;
+  gap:9px;
+}
+
+#firstCircle{
+  border-radius: 50%;
+  background-color: #FFF;
+  width: 30px;
+  height: 30px;
+}
+
+#secondCircle{
+  border-radius: 50%;
+  background-color: none;
+  border: 1.59px solid #FFF;
+  width: 15px;
+  height: 15px;
+}
+
+#cardInfo{
+  display: flex;
+  flex-direction: column;
+  margin-top: 36px;
+}
+
+#cardNum{
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.2px;
+}
+
+#nameDATE{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+#name{
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.286px;
+  text-transform: uppercase;
+  color: #FFF;
+}
+
+#DATE{
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.286px;
+  text-transform: uppercase;
+  color: #FFF;
+}
+
+@media (min-width:1000px) {
+
+  #page {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  #heading{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    width: 483px;
+    height: 900px;
+    position: relative;
+    background-image: url("/public/images/bg-main-desktop.png") ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  #cardsBack{
+    width:447px;
+    height:254px ;
+    background-size: 100%;
+    position: relative;
+    left: 258px;
+    top: 469px;
+    margin: 0;
+  }
+
+  #CVC{
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-right: 57px;
+    margin-top: -13px;
+  }
+
+  #cardsFront{
+    position: relative;
+    top:-60px;
+    left: 164px;
+    width:447px;
+    height:245px ;
+    background-size: 100%;
+  }
+
+  #signs{
+    gap:16px;
+  }
+  
+
+  #firstCircle{
+    width: 47px;
+    height: 47px;
+  }
+
+  #secondCircle{
+    width: 21px;
+    height: 21px;
+  }
+
+  #cardInfo{
+    margin-top: 64px;
+  }
+
+  #cardNum{
+    font-size: 28px;
+    letter-spacing: 3.422px;
+  }
+
+  #nameDATE{
+    margin-top: 25.5px;
+  }
+
+  #name{
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+
+  #DATE{
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+  
+
+}

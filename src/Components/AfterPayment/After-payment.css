@@ -1,0 +1,49 @@
+#confirmedPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 24px 45px 24px;
+    margin-top: 91px;
+}
+
+#confirmHead{
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 3.422px;
+    color: #21092F;
+    margin-top: 35px;
+}
+
+#description{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #8F8694;    
+    margin-top: 16px;
+}
+
+#continue{
+    width: 327px;
+    height: 53px;
+    background-color:#21092F;
+    border-radius: 8px;
+    border: none;
+    margin-top: 48px;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #FFF;
+}
+
+@media (min-width:1000px) {
+    #confirmedPage{
+        margin-top: 0px;
+        margin-left: 349px;
+    }
+    
+}

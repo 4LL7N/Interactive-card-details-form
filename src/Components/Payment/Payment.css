@@ -1,0 +1,96 @@
+h2{
+    width: auto;
+}
+
+#paymentBox{
+    padding: 0px 24px 45px 24px;
+    margin-top: 91px;
+}
+
+.nameBox{
+    margin-bottom: 20px;
+}
+
+.nameBoxHead{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #21092F;
+    margin-bottom: 9px;
+}
+
+.Error{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #FF5050;
+    margin-top: 5px;
+}
+
+#DATEcvc{
+    display: flex;
+    flex-direction: row;
+    gap: 11px;
+}
+
+.Input{
+    width: 327px;
+    height: 45px;
+    padding: 11px 16px 11px 16px;
+    border: 1px solid #DFDEE0;
+    border-radius: 8px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #21092F;
+}
+
+.Input:focus{
+    outline: none;
+}
+
+.Input::placeholder{
+    opacity: 0.25;
+}
+
+.MMinput{
+    width: 72px;
+    margin-right: 8px;
+}
+
+.YYinput{
+    width: 72px;
+}
+
+.CVCinput{
+    width: 164px;
+}
+
+#confirmation{
+    width: 327px;
+    height: 53px;
+    background-color:#21092F;
+    border-radius: 8px;
+    border: none;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #FFF;
+}
+
+@media (min-width:1000px) {
+
+    #paymentBox{
+        padding: 0px 24px 45px 24px;
+        margin-top: 0px;
+        margin-left: 349px;
+    }
+    
+}
